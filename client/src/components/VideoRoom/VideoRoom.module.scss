@@ -1,0 +1,34 @@
+.videoRoom {
+  height: 90%;
+
+  .videoGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+  }
+
+  .roomInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    align-items: center;
+
+    .roomId {
+      font-weight: 700;
+    }
+
+    .closeButton {
+      height: 40px;
+      width: 120px;
+      color: white;
+      border: none;
+      background: red;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: 700;
+    }
+  }
+}
